@@ -32,15 +32,11 @@ export default function Footer() {
               <div>
 
                 <h3 className="text-3xl font-extrabold text-white tracking-wide">
-
-                  دیدبان هوشمند
-
+                  DIGILAN
                 </h3>
 
                 <p className="text-sm text-gray-400">
-
-                  امنیت هوشمند، آرامش ماندگار
-
+                  فروشگاه تخصصی تجهیزات نظارتی
                 </p>
 
               </div>
@@ -48,8 +44,9 @@ export default function Footer() {
             </div>
 
             <p className="leading-8 text-gray-400">
-
-             ارائه خدمات نصب، راه‌اندازی، انتقال تصویر، سرویس و پشتیبانی انواع سیستم‌های نظارت تصویری برای منازل، فروشگاه‌ها، شرکت‌ها و کارخانه‌ها.
+              دیجی‌لن مرجع تخصصی فروش تجهیزات نظارتی، دوربین‌های مداربسته،
+              سیستم‌های امنیتی، تجهیزات شبکه، خدمات نصب، انتقال تصویر و
+              پشتیبانی در سراسر ایران است.
             </p>
 
           </div>
@@ -59,9 +56,7 @@ export default function Footer() {
           <div>
 
             <h4 className="text-white font-bold text-xl mb-6">
-
               دسترسی سریع
-
             </h4>
 
             <ul className="space-y-4">
@@ -71,11 +66,19 @@ export default function Footer() {
               </li>
 
               <li className="hover:text-blue-400 hover:-translate-x-1 transition-all duration-300 cursor-pointer">
-                خدمات
+                فروشگاه
+              </li>
+
+              <li className="hover:text-blue-400 hover:-translate-x-1 transition-all duration-300 cursor-pointer">
+                خدمات نصب
               </li>
 
               <li className="hover:text-blue-400 hover:-translate-x-1 transition-all duration-300 cursor-pointer">
                 پروژه‌ها
+              </li>
+
+              <li className="hover:text-blue-400 hover:-translate-x-1 transition-all duration-300 cursor-pointer">
+                وبلاگ
               </li>
 
               <li className="hover:text-blue-400 hover:-translate-x-1 transition-all duration-300 cursor-pointer">
@@ -91,9 +94,7 @@ export default function Footer() {
           <div>
 
             <h4 className="text-white font-bold text-xl mb-6">
-
               اطلاعات تماس
-
             </h4>
 
             <div className="space-y-5">
@@ -106,11 +107,11 @@ export default function Footer() {
                 />
 
                 <a
-  href="tel:09121234567"
-  className="hover:text-blue-400 transition-colors"
->
-  0912 123 4567
-</a>
+                  href="tel:09121234567"
+                  className="hover:text-blue-400 transition-colors"
+                >
+                  0912 123 4567
+                </a>
 
               </div>
 
@@ -121,12 +122,12 @@ export default function Footer() {
                   className="text-blue-500"
                 />
 
-               <a
-  href="mailto:info@didbanhoshmand.ir"
-  className="hover:text-blue-400 transition-colors"
->
-  info@didbanhoshmand.ir
-</a>
+                <a
+                  href="mailto:info@digilan.ir"
+                  className="hover:text-blue-400 transition-colors"
+                >
+                  info@digilan.ir
+                </a>
 
               </div>
 
@@ -138,9 +139,7 @@ export default function Footer() {
                 />
 
                 <span>
-
                   شیراز
-
                 </span>
 
               </div>
@@ -154,11 +153,7 @@ export default function Footer() {
           <div>
 
             <h4 className="text-white font-bold text-xl mb-6">
-
-             Telegram
-WhatsApp
-Instagram
-
+              ما را دنبال کنید
             </h4>
 
             <div className="flex gap-4">
@@ -166,6 +161,7 @@ Instagram
               <a
                 href="#"
                 className="bg-slate-800 hover:bg-blue-700 p-5 rounded-full transition"
+                title="واتساپ"
               >
                 <Phone />
               </a>
@@ -173,6 +169,7 @@ Instagram
               <a
                 href="#"
                 className="bg-slate-800 hover:bg-blue-700 p-5 rounded-full transition"
+                title="تلگرام"
               >
                 <Send />
               </a>
@@ -185,7 +182,7 @@ Instagram
 
         <div className="border-t border-slate-800 mt-16 pt-8 text-center text-gray-500 text-sm">
 
-         © 2026 دیدبان هوشمند | طراحی و توسعه توسط تیم دیدبان هوشمند
+          © 2026 DIGILAN | تمامی حقوق محفوظ است.
 
         </div>
 
